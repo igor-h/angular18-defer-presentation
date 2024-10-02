@@ -31,7 +31,19 @@
       <span style="margin-bottom: 20px; font-size: 6rem; color: #8006fb;">+</span>
       <img src="./svg/avolta.svg"  width="210" height="35" alt="Avolta logo" style="margin-bottom: 10px" />
 
-      <router-outlet />
+      <div class="card">
+        <div class="card-header">
+          @for (item of controlFlowOperators; track item.title) {
+            <h1 [routerLink]="item.link" routerLinkActive="active-item" class="hidden-item">{{ item.description }}</h1>
+          }
+
+        </div>
+        <div class="card-content">
+          <router-outlet />
+        </div>
+
+      </div>
+
     </div>
   </div>
 </main>

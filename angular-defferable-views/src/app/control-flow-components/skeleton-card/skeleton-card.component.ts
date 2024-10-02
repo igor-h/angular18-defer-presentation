@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
+import { SkeletonModule } from 'primeng/skeleton';
 
 @Component({
   selector: 'app-skeleton-card',
   standalone: true,
-  imports: [],
-  templateUrl: './skeleton-card.component.html',
-  styleUrl: './skeleton-card.component.scss'
+  imports: [SkeletonModule],
+  templateUrl: './skeleton-card.component.html'
 })
 export class SkeletonCardComponent {
 
