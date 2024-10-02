@@ -1,7 +1,7 @@
-# AngularDefferableViews
+# Angular @defer @if @for @switch
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6.
+![image](https://github.com/user-attachments/assets/f2c5d35c-1074-40c8-9aac-c76aaa88b646)
 
-## Development server
+# Deferred loading with @defer
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![image](https://github.com/user-attachments/assets/53f8f37e-54bf-4163-a952-d3ce7d2f64e9)
