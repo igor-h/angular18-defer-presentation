@@ -1,13 +1,20 @@
 # Avolta-frontend-event-Q3
 
 ## 🚀 Demo Projects:
-[> angular-defferable-views](https://github.com/Dufry/Avolta-frontend-event-Q3/tree/master/angular-defferable-views)
 
-**Angular demo projects with examples using:**
+
+**1. Angular demo projects with examples using:**
 - @defer 
 - @if
 - @for
 - @switch
+[> angular-defferable-views](https://github.com/Dufry/Avolta-frontend-event-Q3/tree/master/angular-defferable-views)
+
+**2. Angular demo projects with examples using:**
+- Signals 
+
+[> angular-signals-examples](https://github.com/Dufry/Avolta-frontend-event-Q3/tree/master/angular-signals-examples)
+
 
 
 ## 🤓  Getting Started steps:
