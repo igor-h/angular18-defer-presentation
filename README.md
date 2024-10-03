@@ -24,7 +24,7 @@ ng build
 
 ## 🧰 Built With
 
-- Generated with [**Angular** ](https://github.com/angular/angular)
+- Generated with [**Angular** ](https://github.com/angular/angular) and [**Angular/CLI**](https://github.com/angular/angular-cli)
 - [PrimeNG](https://github.com/primefaces/primeng)
 - [TypeScript](https://github.com/Microsoft/TypeScript)
 
