@@ -13,7 +13,7 @@ export interface Car {
 @Injectable()
 export class CarService {
 
-  brands = ['Vapid', 'Carson', 'Kitano', 'Dabver', 'Ibex', 'Morello', 'Akira', 'Titan', 'Dover', 'Norma'];
+  brands = ['Audi', 'BMW', 'Chevrolet', 'Mercedez-Benz', 'Fiat', 'Ford', 'Honda', 'Jaguar', 'Renault', 'MG', 'VW'];
 
   colors = ['Black', 'White', 'Red', 'Blue', 'Silver', 'Green', 'Yellow'];
 
@@ -23,8 +23,12 @@ export class CarService {
       vin: this.generateVin(),
       brand: this.generateBrand(),
       color: this.generateColor(),
-      year: this.generateYear()
+      year: this.generateYear(),
+      price: this.generatePrice(),
     };
+  }
+  generatePrice() {
+    return Math.floor(Math.random() * 32000) + " €";
   }
 
   generateVin() {
