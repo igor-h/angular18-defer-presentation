@@ -8,9 +8,9 @@ interface ControlFlowOperator {
 }
 
 @Component({
-  selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, RouterLinkActive, RouterLink],
+  selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
@@ -36,6 +36,11 @@ export class AppComponent {
       title: "@defer",
       description: "Deferred loading with @defer",
       link: "defer"
+    },
+    {
+      title: "parent navigation",
+      description: "parent with two childs",
+      link: "parent"
     },
     {
       title: "@back to home",

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import {SkeletonCardComponent} from "../skeleton-card/skeleton-card.component";
+import {SkeletonCardComponent} from "../../components/skeleton-card/skeleton-card.component";
 import {BigComponentComponent} from "../../components/big-component/big-component.component";
 
 
